@@ -1,4 +1,4 @@
-// Q3. 
+// Q2. 
 // Read-Only Encapsulation
 
 // Class Name: ProductDetails
