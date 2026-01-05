@@ -1,0 +1,19 @@
+ WAP create a class employee find variable and method
+
+ id,name,mailId,contactNumber ,adharNumber,panNumber,Dob,Age,Gender
+ Martial Status , company,branch,department,reporting manager,desination,role,salary,uanNumber,yearOfExp,
+ city,state,country
+ i)displayEmployeeDetails()
+ii)Entry() 
+ii)login()
+iii)shortBreak()
+iv)task()
+v)taskUpdate()
+vi)meeting()
+vii)reverseKt()
+viii)longBreak()
+ix)logout
+x) exit()
+
+write a java program to create a class by name java application and create 4 employee class type obj 
+then intilize all the variable and call all the method 
