@@ -15,11 +15,11 @@ class Instagram {
 		this.password=password;
 		this.captch=captch;
 		System.out.println("Log in successfull!!");
-	}
+	} 
 	public void login(long contactNubmer,int otp){
 		this.contactNubmer=contactNubmer;
 		this.otp=otp;
-		System.out.println("Log in successfull!!");
+		System.out.println("Log in successfull!!"); 
 	}
 	public void login(String mailId,int otp)
 	{
