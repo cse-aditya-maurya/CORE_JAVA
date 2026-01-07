@@ -1,4 +1,4 @@
-class Instagram {
+   class Instagram {
 	public String username;
 	public String password;
 	public String mailId;

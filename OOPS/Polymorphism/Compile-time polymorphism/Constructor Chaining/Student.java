@@ -1,4 +1,5 @@
-class Student {
+import java.lang.Object;
+class Student extends Object{
 	String name;
 	char gender;
 	String mailId;
