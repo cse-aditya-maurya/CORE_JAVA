@@ -15,4 +15,7 @@ target/
 Thumbs.db
 
 .metadata/
+.classpath
+.project
+.settings/
 
