@@ -1,0 +1,45 @@
+Banking System with Fraud Check
+
+Problem Description
+Design a Banking System where:
+An Account HAS-A Transaction
+A Transaction HAS-A FraudCheck
+A withdrawal succeeds only if:
+Balance ≥ withdrawal amount
+Fraud check passes
+
+Classes & Requirements
+
+Class: FraudCheck
+Variables
+safe : boolean
+
+Methods
+isSafe() : boolean
+
+Class: Transaction
+Variables
+amount : int
+fraudCheck : FraudCheck
+
+Methods
+isApproved(balance : int) : boolean
+
+Class: Account
+Variables
+balance : int
+transaction : Transaction
+
+Methods
+withdraw() : void
+
+UML Class Diagram
+
+
+Hardcoded Data to Use
+Account Balance: 5000
+Withdrawal Amount: 3000
+Fraud Check Safe: false
+
+Expected Output
+Withdrawal failed
