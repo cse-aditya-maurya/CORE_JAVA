@@ -30,8 +30,17 @@ public class StringOperation {
 		System.out.println(s3);
 		String s4=s3.toLowerCase();
 		System.out.println(s4);
-		System.out.println(s3==s4);
-		
+		System.out.println(s3==s4);			
+	}
+	
+	public static void execute3() {
+		StringBuffer f1=new StringBuffer();
+		f1.insert(0, "java");
+		System.out.println(f1);
+		f1.setCharAt(0, 'J');
+		System.out.println(f1);
+		f1.deleteCharAt(2);
+		System.out.println(f1);
 		
 		
 				
@@ -39,12 +48,11 @@ public class StringOperation {
 	public static void main(String[] args) {
 	           execution1();
 	           execute2();
-
-	          String s = "";
-	   		for(int i=0; i<1000; i++) {
-	   		    s = s.concat("a");
-	   		    System.out.println(s);
-	   		}
+	           execute3();
+            
 	}
 
 }
+
+
+/*WAP to check whether a given String is palindrome or not */
